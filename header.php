@@ -4,6 +4,7 @@
             <div class="col-md-12">
                 <div class="black-string-content">
                     <ul>
+                        <li class="icon"></li>
                         <li><a href="#">Начало</a></li>
                         <li><a href="#">Контакти</a></li>
                         <li><a href="#">Статьи</a></li>
@@ -68,6 +69,5 @@
                 </ul>
             </div>
         </nav>
-    </div>
     </div>
 </header>
