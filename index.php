@@ -26,9 +26,8 @@ require_once 'header.php'; ?>
 require_once 'main-slider.php';
 ?>
 
-
-<script src="js/test.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/test.js"></script>
 </body>
 </html>
