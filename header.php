@@ -25,20 +25,28 @@
         <div class="header-red-container">
             <div class="col-md-12">
                 <div class="header-red-content" style="display:flex; position: relative">
-                    <div class="logo">
-                        <img src="img/logo.png" alt="">
-                    </div>
-                    <div class="input-group" style="padding-left: 13px;">
-                        <span style="text-decoration: underline;color: #ffffff;font-family: Tahoma sans-serif;font-size: 14px;float: right">Не дозвонились?</span><br>
-                        <span class="mts" style="float: left;font-family: Arial"><i class="mtc"></i><span
-                                    style="font-size: 12px;">(050) </span> <span
-                                    style="font-size: 18px; font-weight: 700">757-75 77</span></span>
-                        <span class="kyivstar" style="float: right;font-family: Arial"><i class="kyivstar"></i><span
-                                    style="font-size: 12px;">(067) </span> <span
-                                    style="font-size: 18px;font-weight: 700;">757-75-77</span></span>
-                        <div class="clear"></div>
-                        <input style="width: 324px;height: 31px;box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.56);border-radius: 5px;background-color: #ffffff;margin-top: 6px;"
-                               type="search" class="form-control" placeholder="Поиск по сайту...">
+                    <div class="logo-search-container" style="display: flex">
+                        <div class="logo">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="input-group">
+                            <span style="text-decoration: underline;color: #ffffff;font-family: Tahoma sans-serif;font-size: 14px;float: right">Не дозвонились?</span><br>
+                            <span class="mts" style="float: left;font-family: Arial"><i class="mtc"></i><span
+                                        style="font-size: 12px;">(050) </span> <span
+                                        style="font-size: 18px; font-weight: 700">757-75 77</span></span>
+
+                            <span class="kyivstar" style="font-family: Arial"><i class="kyivstar"></i><span
+                                        style="font-size: 12px;">(067) </span> <span
+                                        style="font-size: 18px;font-weight: 700;">757-75-77</span></span>
+                            <div class="clear"></div>
+                            <form action="" method="post"><input name="getHint"
+                                                                 style="width: 324px;height: 31px;box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.56);border-radius: 5px;background-color: #ffffff;margin-top: 6px;"
+                                                                 type="search" class="form-control"
+                                                                 placeholder="Поиск по сайту...">
+                                <div class="hints">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                     <div class="Shopping-basket">
                         <div class="backet">
@@ -59,6 +67,7 @@
             <div class="navigation">
                 <ul>
                     <li><a class="first" href="#">ЖЕНСКАЯ ОДЕЖДА</a></li>
+                    <li class="menu-button"><a>МЕНЮ</a></li>
                     <li><a href="#">МУЖСКАЯ ОДЕЖДА</a></li>
                     <li><a href="#">ДЕТСКАЯ ОДЕЖДА</a></li>
                     <li><a href="#">ПОДАРОЧНАЯ КАРТА</a></li>

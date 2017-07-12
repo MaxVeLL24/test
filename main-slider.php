@@ -1,5 +1,5 @@
 <div class="col-md-12">
-    <div class="carousel" style="margin: 0 auto; max-width: 1000px; position: relative">
+    <div class="carousel" style="margin: 0 auto; max-width: 950px; position: relative">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
@@ -15,9 +15,6 @@
                 </div>
             </div>
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <br>
-                <br>
-                <br>
                 <span class="left"></span>
                 <span class="sr-only">Previous</span>
             </a>
