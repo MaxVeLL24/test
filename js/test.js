@@ -27,13 +27,16 @@ $(document).ready(function () {
         $('.nav-menu').slideToggle('slow');
     });
 
-    $('li.icon').click(function () {
-        if ($('ul.black-menu').hasClass('mobile')) {
-            $('ul.black-menu').removeClass('mobile');
-            $('ul.black-menu li').removeClass('mobile');
-        } else {
-            $('ul.black-menu').addClass('mobile');
-            $('ul.black-menu li').addClass('mobile');
+    $('ul.mobile-menu').click(function (e) {
+        if ($(e.target).is('.icon')) {
+            if ($('ul.black-menu').hasClass('mobile')) {
+                $('ul.black-menu').removeClass('mobile');
+                $('ul.black-menu li').removeClass('mobile');
+                $('ul.black-menu li').removeClass('mobile-invisible');
+            } else {
+                $('ul.black-menu').addClass('mobile');
+                $('ul.black-menu li').addClass('mobile');
+            }
         }
 
     });
@@ -55,9 +58,6 @@ $(document).ready(function () {
         } else {
             $('ul.black-menu li').removeClass('list-item');
             $('ul.black-menu li').addClass('mobile-invisible');
-        }
-        if ($(window).width() <= 650) {
-            $('ul.black-menu li').css({'right': '15%'});
         }
     });
 });
