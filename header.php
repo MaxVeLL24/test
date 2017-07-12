@@ -3,8 +3,10 @@
         <div class="header-black-string">
             <div class="col-md-12">
                 <div class="black-string-content">
-                    <ul class="black-menu">
+                    <ul class="mobile-menu">
                         <li class="icon"></li>
+                    </ul>
+                    <ul class="black-menu">
                         <li><a href="#">Начало</a></li>
                         <li><a href="#">Контакти</a></li>
                         <li><a href="#">Статьи</a></li>
@@ -27,7 +29,7 @@
                 <div class="header-red-content" style="display:flex; position: relative">
                     <div class="logo-search-container" style="display: flex">
                         <div class="logo">
-                            <img src="img/logo.png" alt="">
+                            <a href="#"><img src="img/logo.png" alt=""></a>
                         </div>
                         <div class="input-group">
                             <span style="text-decoration: underline;color: #ffffff;font-family: Tahoma sans-serif;font-size: 14px;float: right">Не дозвонились?</span><br>
@@ -63,17 +65,19 @@
                 </div>
             </div>
         </div>
-        <nav class="col-md-12">
+        <nav class="col-md-12" style="padding: 0">
             <div class="navigation">
                 <ul>
-                    <li><a class="first" href="#">ЖЕНСКАЯ ОДЕЖДА</a></li>
                     <li class="menu-button"><a>МЕНЮ</a></li>
-                    <li><a href="#">МУЖСКАЯ ОДЕЖДА</a></li>
-                    <li><a href="#">ДЕТСКАЯ ОДЕЖДА</a></li>
-                    <li><a href="#">ПОДАРОЧНАЯ КАРТА</a></li>
-                    <li><a href="#">БРЕНДЫ</a></li>
-                    <li><a href="#">НОВИНКИ</a></li>
-                    <li><a href="#">Распродажа</a></li>
+                </ul>
+                <ul>
+                    <li class="nav-menu"><a class="first" href="#">ЖЕНСКАЯ ОДЕЖДА</a></li>
+                    <li class="nav-menu"><a href="#">МУЖСКАЯ ОДЕЖДА</a></li>
+                    <li class="nav-menu"><a href="#">ДЕТСКАЯ ОДЕЖДА</a></li>
+                    <li class="nav-menu"><a href="#">ПОДАРОЧНАЯ КАРТА</a></li>
+                    <li class="nav-menu"><a href="#">БРЕНДЫ</a></li>
+                    <li class="nav-menu"><a href="#">НОВИНКИ</a></li>
+                    <li class="nav-menu"><a href="#">Распродажа</a></li>
                 </ul>
             </div>
         </nav>

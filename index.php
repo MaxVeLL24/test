@@ -15,6 +15,7 @@ require_once 'autoloader.php';
     <style>
         * {
             box-sizing: border-box;
+            transition: 300ms;
         }
 
         .clear {
