@@ -7,6 +7,11 @@ $(document).ready(function () {
             geth(getHint);
         }, 300);
     });
+    $(document).click(function (e) {
+        if ($(e.target).not('input[name=getHint]')) {
+            $('a.hint').remove();
+        }
+    });
     function geth(getHint) {
         $.ajax({
             url: "getHint.php",

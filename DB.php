@@ -3,10 +3,10 @@
 class DB
 {
     public $link;
-    const DB_HOST = '127.0.0.1';
-    const DB_USER = 'root';
-    const DB_PASSWORD = '';
-    const DB_NAME = 'ajax';
+    const DB_HOST = 'localhost';
+    const DB_USER = 'id2234266_ajaxhint';
+    const DB_PASSWORD = 'maxvell';
+    const DB_NAME = 'id2234266_ajax';
 
     public function __construct()
     {
